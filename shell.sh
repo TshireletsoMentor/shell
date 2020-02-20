@@ -1,1 +1,1 @@
-echo "run"
+cat > test.txt <<EOL
