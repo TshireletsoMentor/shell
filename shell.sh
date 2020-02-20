@@ -1,1 +1,4 @@
-cat > test.txt alias rabbit="echo run"<< EOL
+cat > test.txt << EOL
+
+alias rabbit="echo run"
+EOL
