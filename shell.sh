@@ -1,4 +1,5 @@
 cat > test.txt << EOL
 
-alias rabbit="echo run"
+source alias rabbit="echo run"
 EOL
+source test.txt
