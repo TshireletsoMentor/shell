@@ -1,0 +1,1 @@
+alias rabbit="echo run"
