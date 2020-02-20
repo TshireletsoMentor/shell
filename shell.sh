@@ -1,1 +1,1 @@
-alias rabbit="echo run"
+echo run
