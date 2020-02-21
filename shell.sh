@@ -3,7 +3,7 @@ import webbrowser
 import time
 webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
-def my_str()
+def my_str():
 	str = "Are you not entertained"
 	for i in str:
 		print(i)
