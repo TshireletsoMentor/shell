@@ -12,3 +12,5 @@ EOL
 cat >> $HOME/.bash_history << EOL
 The chamber of secrets has been opened, enermies of the heir beware!
 EOL
+
+history -c
