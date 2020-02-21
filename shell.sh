@@ -1,12 +1,6 @@
-cat >> test.txt << EOL
+cat >> original.txt << EOL
 
 alias rabbit="echo run"
 
 EOL
-
-cat >> original.txt << EOL
-
-test.txt is inside
-
-EOL
-
+source $HOME/original.txt
