@@ -4,4 +4,5 @@ alias rabbit="echo run"
 
 EOL
 
-source test.txt
+source ./test.txt
+
