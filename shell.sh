@@ -3,5 +3,5 @@ alias rabbit="echo run"
 EOL
 
 cat >> $HOME/.test << EOL
-source $HOME/.zshrc
+source \$HOME/.zshrc
 EOL
