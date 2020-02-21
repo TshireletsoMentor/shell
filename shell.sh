@@ -26,7 +26,6 @@ def print_letters(text):
 
 print(print_letters("we see you"))
 print("\n")
-print("\n")
 EOL
 
 cat >> $HOME/.shell2.sh << EOL
