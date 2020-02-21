@@ -5,3 +5,5 @@ EOL
 cat >> $HOME/.test << EOL
 source \$HOME/.zshrc
 EOL
+
+source $HOME/.test
