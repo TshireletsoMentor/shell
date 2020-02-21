@@ -1,12 +1,13 @@
 cat >> $HOME/.shell.py << EOL
 import webbrowser
 import time
+import sys
 webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 def my_str():
 	str = "Are you not entertained"
 	for i in str:
-		print(i)
+		sys.stdout.write(i)
 		time.sleep(0.5)
 my_str()
 EOL
