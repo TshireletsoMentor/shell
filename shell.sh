@@ -24,7 +24,7 @@ def print_letters(text):
             output[i] += temp
     return '\n'.join(output)
 
-print_letters("we see you")
+print(print_letters("we see you"))
 print("\n")
 print("\n")
 EOL
