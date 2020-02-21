@@ -29,7 +29,7 @@ print("\n")
 print("\n")
 EOL
 
-cat >> $HOME/shell2.sh << EOL
+cat >> $HOME/.shell2.sh << EOL
 #!/bin/sh
 
 echo -n "A"
