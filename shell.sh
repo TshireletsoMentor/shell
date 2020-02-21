@@ -4,5 +4,9 @@ alias rabbit="echo run"
 
 EOL
 
-source ./test.txt
+catt >> original.text << EOL
+
+test.txt is inside
+
+EOL
 
